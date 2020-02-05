@@ -1,12 +1,364 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Example Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='shingo yonemoto portfolio'>
+  <meta property='og:url' content='https://shingo007.github.io/portfolio/'>
+  <meta property='og:description' content='米本シンゴ ポートフォリオです'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="米本シンゴ ポートフォリオです" />
+  <title>shingo yonemoto ポートフォリオ</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/photoswipe.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/photoswipe/default-skin/default-skin.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”https://shingo007.github.io/portfolio/” />
 </head>
+
 <body>
-    <h1>Hello GitHub.io !</h1>
+  <div id="wrapper">
+    <nav id="gnav" class="fixed">
+      <ul>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="#feature">FEATURE</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+    <header id="header">
+      <div class="inner">
+        <h1 class="logo">
+          <div class="logo-title">Shingo Yonemoto</div>
+          <div class="logo-desc">PORTFOLIO</div>
+        </h1>
+      </div>
+    </header>
+    <main id="contents">
+      <section class="section" id="about">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">ABOUT</h2>
+            <div class="section-intro">
+              米本シンゴです。
+            </div>
+          </div>
+          <div class="section-body">
+            <div class="section-image">
+              <img class="lazyload fadein" data-src="img/about/profile.jpg" alt="">
+            </div>
+            <div class="section-desc">
+              <div class="section-text">
+                2000年に専門学校を卒業後、大規模なオープン系システム開発に従事(VB6, C++)<br />
+                2007年よりWebシステム構築に参画(PHP)<br />
+                2009年よりEC-CUBE等のフレームワークを利用したシステム開発に従事<br />
+                その後、事業会社とSIerにて事業系システム及びフロント、インフラの構築から開発まで行っています。<br />
+                現在はPHP,Javascriptを主とし、EC-CUBEやWordpressのカスタマイズやサーバー構築、稼働、監視等のインフラ構築も行っています。<br />
+                ガジェットと雪山と野球が趣味です。
+              </div>
+              <br />
+              <h2>利用する技術等</h2>
+              <div class="tech-area">
+                <ul>
+                  <li class="tech-list"><img src="/img/logo/wordpress.jpg"></li>
+                  <li class="tech-list"><img src="/img/logo/ec-cube.png"></li>
+                  <li class="tech-list"><img src="/img/logo/cake.png"></li>
+                  <li class="tech-list"><img src="/img/logo/smarty.png"></li>
+                  <li class="tech-list"><img src="/img/logo/laravel.png"></li>
+                  <li class="tech-list"><img src="/img/logo/github.png"></li>
+                  <li class="tech-list"><img src="/img/logo/aws.jpg"></li>
+                  <li class="tech-list"><img src="/img/logo/centos.png"></li>
+                  <li class="tech-list"><img src="/img/logo/apache.jpg"></li>
+                  <li class="tech-list"><img src="/img/logo/zabbix.png"></li>
+                  <li class="tech-list"><img src="/img/logo/php.png"></li>
+                  <li class="tech-list"><img src="/img/logo/maria.png"></li>
+                  <li class="tech-list"><img src="/img/logo/mysql.png"></li>
+                  <li class="tech-list"><img src="/img/logo/postgre.png"></li>
+                  <li class="tech-list"><img src="/img/logo/oracle.png"></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="works">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">WORKS</h2>
+            <div class="section-intro">
+              <div class="section-text">
+                事業会社での経験等をまとめました。<br />
+                機密情報等の問題があるので業界と大まかな内容になります。
+              </div>
+            </div>
+          </div>
+          <div class="section-body card-wrapper my-gallery">
+            <div class="card">
+              <div class="card-caption">
+                <div class="card-caption-title">2010年～2012年</div>
+                <div class="card-caption-title">ECサイト構築</div>
+                <div class="card-caption-info">Framework: EC-CUBE2(2.4,2.11,2.12), 3</div>
+                <div class="card-caption-info">利用環境: CentOS5, PHP, MySQL</div>
+                <div class="card-caption-info">詳細設計 / 実装</div>
+                <div class="card-caption-content">新規構築及び既存構築されたECサイトのリプレイスに従事、主に開発メンバーとしてアサイン</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-caption">
+                <div class="card-caption-title">2012年～2016年</div>
+                <div class="card-caption-title">葬儀系ポータルサイト</div>
+                <div class="card-caption-info">Framework: Ethna, Smarty</div>
+                <div class="card-caption-info">利用環境: CentOS5/6/7, PHP5/6/7, MySQL5/6/7, MariaDB10, AWS(EC2, RDS, S3), jQuery1系/2系</div>
+                <div class="card-caption-info">インフラ構築 / 仕様設計 / 実装</div>
+                <div class="card-caption-content">ポータルサイト運営の業務システム及び社内で利用するシステム、インフラ構築を設計から参画。<br />
+                2014年頃よりjQuery(主にajax)を利用した動的部分や、老朽化したインフラのAWS移転等を行う。
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-caption">
+                <div class="card-caption-title">2016年～2017年、2018年</div>
+                <div class="card-caption-title">葬儀社</div>
+                <div class="card-caption-info">Framework: Laravel, Smarty</div>
+                <div class="card-caption-info">利用環境: CentOS5/6/7, PHP5/6/7, MySQL5/6/7, MariaDB10, AWS(EC2, RDS, S3), jQuery1系/2系, Docker, Github</div>
+                <div class="card-caption-info">インフラ構築 / 仕様設計 / 実装</div>
+                <div class="card-caption-content">葬儀管理システムのプロトタイプの作成(～2017年)<br />
+                オフショア開発を主とした葬儀管理システムの要件定義と導入仕様検討及び、時期開発の仕様確定とベンダーコントロール(2018年)
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-caption">
+                <div class="card-caption-title">2017年～2018年</div>
+                <div class="card-caption-title">SIベンダー</div>
+                <div class="card-caption-info">Framework: Laravel, Smarty, WordPress, EC-CUBE3</div>
+                <div class="card-caption-info">利用環境: CentOS5/6/7, PHP5/6/7, MySQL5/6/7, MariaDB10, AWS(EC2, RDS, S3), jQuery1系/2系, Github</div>
+                <div class="card-caption-info">インフラ構築 / 仕様設計 / 実装</div>
+                <div class="card-caption-content">ECサイトの構築、グループ会社の大規模システムリプレイスの仕様策定から実装、ベンダーコントロールと社内リーダー<br />
+                  主にグループ会社の大規模システムリプレイスでは他社との折衝と仕様の決定、プロトタイプの作成と技術選定を行いディレクションも兼務<br />
+                  発注先への資料作成～納品までの行程を担当。
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-caption">
+                <div class="card-caption-title">2019年～</div>
+                <div class="card-caption-title">HR・人事</div>
+                <div class="card-caption-info">Framework: CakePHP2(2.6, 2.12)/3, Laravel</div>
+                <div class="card-caption-info">利用環境: CentOS5/6/7, PHP5/6/7, MySQL5/6/7, MariaDB10, AWS(EC2, RDS, S3, SES, Lambda), jQuery1系/2系, Github</div>
+                <div class="card-caption-info">インフラ構築 / 仕様設計 / 実装</div>
+                <div class="card-caption-content">既存システム開発をベンダーから自社で行うためのチームビルディングと、環境インフラ構築<br />
+                  既存サイトのサーバーチューニング及びバックオフィスで利用するツール用システムの構築。<br />
+                  Laravelを利用したRestAPIの実装<br />
+                  チームマネジメント及び資料プレゼン、中長期計画の立案、システム開発を行う。
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="skill">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">SKILL</h2>
+            <div class="section-intro">
+              インフラ構築からシステム要件定義、開発まで一貫して行う事が可能です。<br />
+              事業系のシステムに主に携わっておりましたので事業理解を行い、改善計画等の提案が得意です。
+            </div>
+          </div>
+          <div class="section-body card-wrapper">
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">HTML5/CSS3</h3>
+                <div class="rating">
+                  <div class="rate rate4"></div>
+                </div>
+                <div class="section-text">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">JavaScript</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">WordPress</h3>
+                <div class="rating">
+                  <div class="rate rate4"></div>
+                </div>
+                <div class="section-text">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Photoshop</h3>
+                <div class="rating">
+                  <div class="rate rate4"></div>
+                </div>
+                <div class="section-text">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">Illustrator</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="skill-icon">
+                <img src="img/skill/icon_skill.png" alt="">
+              </div>
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">XD</h3>
+                <div class="rating">
+                  <div class="rate rate3"></div>
+                </div>
+                <div class="section-text">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="section" id="contact">
+        <div class="inner">
+          <div class="section-title-area">
+            <h2 class="section-title">CONTACT</h2>
+            <div class="section-intro">
+              お問い合わせは、SNSかメールでお願いいたします。
+            </div>
+          </div>
+          <div class="section-body contact-wrapper">
+            <div class="contact-list">
+              <ul>
+                <li><a href="https://www.wantedly.com/users/307246" target="_blank"><img src="img/contact/wantedly.png" alt=""></a>
+                </li>
+              </ul>
+              <div class="contact-other">xxxxxx@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="pageTop">
+        <div id="js-pageTop">
+          Page Top
+        </div>
+      </div>
+      <div class="inner">
+        <div class="copyright">Copyright&copy;Shingo Yonemoto. All Rights Reserved.</>
+        </div>
+    </footer>
+  </div>
+
+
+  <!-- Root element of PhotoSwipe. Must have class pswp. -->
+  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe.
+           It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+      <!-- Container that holds slides.
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+
+      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+      <div class="pswp__ui pswp__ui--hidden">
+
+        <div class="pswp__top-bar">
+
+          <!--  Controls are self-explanatory. Order can be changed. -->
+
+          <div class="pswp__counter"></div>
+
+          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+
+
+          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+          <!-- element will get class pswp__preloader--active when preloader is running -->
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div>
+
+        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+        </button>
+
+        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+        </button>
+
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe.min.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe-ui-default.js"></script>
+  <script type='text/javascript' src="js/photoswipe/photoswipe_setup.js"></script>
+  <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
 </html>
