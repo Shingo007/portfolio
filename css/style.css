@@ -113,11 +113,12 @@ li {
 
 .section-title {
   font-family: "Open sans", sans-serif;
-  font-size: 40px;
+  font-size: 48px; /* Increase font size */
   font-weight: normal;
   line-height: 1;
   margin-bottom: 15px;
   letter-spacing: .05em;
+  color: navy; /* Change text color to navy */
 }
 
 .section-image a {
@@ -474,6 +475,19 @@ li {
   font-size: 14px;
   margin-top: 10px;
   text-align: center;
+}
+
+.tech-button {
+    border-radius: 100px;
+    border: none;
+    display: inline-block; /* Change to inline-block for horizontal alignment */
+    padding: 15px;
+    box-sizing: border-box;
+    background: #0059ff;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    margin: 10px 5px; /* Adjust margin for spacing */
 }
 
 /*--------------------------------
