@@ -151,6 +151,7 @@ li {
   font-size: 64px;
   line-height: 1;
   letter-spacing: .2em;
+  color: white; /* Set text color to white */
 }
 
 #header .logo-desc {
@@ -158,6 +159,7 @@ li {
   margin-top: 5px;
   text-align: center;
   letter-spacing: .2em;
+  color: white; /* Set text color to white */
 }
 
 /*--------------------------------
@@ -542,10 +544,12 @@ li {
   #header .logo-title {
     font-size: 28px;
     letter-spacing: .16em;
+    color: white; /* Set text color to white */
   }
 
   #header .logo-desc {
     font-size: 11px;
+    color: white; /* Set text color to white */
   }
 
   #gnav {
